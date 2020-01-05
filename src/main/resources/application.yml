@@ -1,0 +1,3 @@
+logging:
+  level:
+    ninja.goofyahead: DEBUG

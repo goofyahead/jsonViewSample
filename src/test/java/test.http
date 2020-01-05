@@ -1,0 +1,17 @@
+### Get request with a header
+GET http://localhost:8080/user/1
+Accept: application/json
+
+###
+### Send POST request with json body
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": 99,
+  "name": "Alfred",
+  "surname": "Joducas Cuaq",
+  "company": "River"
+}
+
+###
