@@ -40,7 +40,7 @@ public class UserControllerIntegrationTest {
         FileInputStream fisInternalUser = new FileInputStream("src/test/resources/internal_user.json");
         String internalUser = IOUtils.toString(fisInternalUser, "UTF-8");
 
-        FileInputStream fisExternalUser = new FileInputStream("src/test/resources/external_user.json");
+        FileInputStream fisExternalUser = new FileInputStream("src/test/resources/internal_ignore_id_user.json");
         String externalUser = IOUtils.toString(fisExternalUser, "UTF-8");
 
         MvcResult result = mockMvc.perform(
